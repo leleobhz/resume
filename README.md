@@ -15,7 +15,7 @@ E nas últimas experiências, o contato com infra-estrutura de ISP foram determi
 
 Este perfil demonstra minha atuação como Administrador de Redes e Sistemas.
 
-Experiências Profissionais Relevantes
+Experiências Profissionais
 --------------------------------------------------------------------------------
 
 #### &raquo; Prodabel - Processamento de Dados da Prefeitura de Belo Horizonte
@@ -35,7 +35,7 @@ Experiências Profissionais Relevantes
 &raquo;&raquo; Tempo de atuação: 2012 - Presente  
 &raquo;&raquo; Área de atuação: Administração de Redes  
 &raquo;&raquo; Atividades: Administração de todo o maquinário do DataCenter do provedor tal como seus serviços de rede. Atua na implementação e manutenção do AS e dos links de Trânsito e conectividade à PTTs - especialmente o PTT-Metro SP.  
-Experiências Técnicas Relevantes - Estudos de caso
+Experiências Técnicas
 --------------------------------------------------------------------------------
 
   Em todas as experiências profissionais, houveram soluções marcantes e de grande impácto nos ambientes em que elas foram implementadas e apresento-as a seguir.
