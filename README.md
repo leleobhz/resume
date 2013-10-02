@@ -44,6 +44,14 @@ Formação Acadêmica
 &raquo;&raquo; Tempo de atuação: 2010~2012, 2013?  
 &raquo;&raquo; Curso: Física Computacional  
 
+Certificações
+--------------------------------------------------------------------------------
+
+&raquo;&raquo; LPIC nível 2 - Identificador LPI000106747 / Código verificador hgwxf77vau  
+&raquo;&raquo; Curso de IPv6 com ênfase em roteamento - Provido pelo NIC.br  
+&raquo;&raquo; Curso para homologação de NR-35  
+&raquo;&raquo; Curso de Infraestrutura em redes ópticas - UFSCar - São Carlos  
+
 Experiências Técnicas
 --------------------------------------------------------------------------------
 
