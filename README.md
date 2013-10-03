@@ -2,7 +2,7 @@ Leonardo Silva Amaral
 ================================================================================
 
 &raquo;		E-Mail: <contato@leonardoamaral.com.br>  
-&raquo;		Telefone: +55 11 91916-0254  
+&raquo;		Telefone: +55 11 94916-0254  
 &raquo;		[Resume no GitHub](https://github.com/leleobhz/resume)  
 
 O profissional
