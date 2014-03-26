@@ -2,7 +2,8 @@ Leonardo Silva Amaral
 ================================================================================
 
 &raquo;		E-Mail: <contato@leonardoamaral.com.br>  
-&raquo;		Telefone: +55 11 94916-0254  
+&raquo;		Telefone: [+55 11 94916-0254] (tel:+5511949160254)  
+&raquo;		Telefone: [+55 16 98839-1896] (tel:+5516988391896)  
 &raquo;		[Resume no GitHub](https://github.com/leleobhz/resume)  
 
 O profissional
@@ -19,7 +20,7 @@ Experiências Profissionais
 
 #### &raquo; Prodabel - Processamento de Dados da Prefeitura de Belo Horizonte
 
-&raquo;&raquo; Tempo de atuação: 2006  
+&raquo;&raquo; Tempo de atuação: 02/2006 - 08/2006  
 &raquo;&raquo; Área de atuação: Estágio em TI
 &raquo;&raquo; Atividades: Marca a primeira implementação em larga escala de sistemas com Linux: Participei paralelamente ao suporte com patches de sistema no desenvolvimento da Distribuição Linux Libertas - implementada pela prefeitura.  
 
@@ -31,7 +32,7 @@ Experiências Profissionais
 
 #### &raquo; SCW Telecom - ASN 28138
 
-&raquo;&raquo; Tempo de atuação: 2012 - Presente  
+&raquo;&raquo; Tempo de atuação: 06/2012 - 04/2014  
 &raquo;&raquo; Área de atuação: Administração de Redes  
 &raquo;&raquo; Atividades: Administração de todo o maquinário do DataCenter do provedor tal como seus serviços de rede. Atua na implementação e manutenção do AS e dos links de Trânsito e conectividade à PTTs - especialmente o PTT-Metro SP.  
 
@@ -40,21 +41,23 @@ Formação Acadêmica
 
 #### &raquo; Universidade de São Paulo - Instituto de Física de São Carlos
 
-&raquo;&raquo; Tempo de atuação: 2010~2012, 2013?  
+&raquo;&raquo; Tempo de atuação: 2010~2012  
 &raquo;&raquo; Curso: Física Computacional  
+&raquo;&raquo; Curso interrompido para mudança de área acadêmica, enfocando Telecomunicações  
 
 Certificações
 --------------------------------------------------------------------------------
 
 &raquo;&raquo; LPIC nível 2 - Identificador LPI000106747 / Código verificador hgwxf77vau  
 &raquo;&raquo; Curso de IPv6 com ênfase em roteamento - Provido pelo NIC.br  
+&raquo;&raquo; Curso de boas práticas para Sistemas Autônomos - Provido pelo NIC.br  
 &raquo;&raquo; Curso para homologação de NR-35  
 &raquo;&raquo; Curso de Infraestrutura em redes ópticas - UFSCar - São Carlos  
 
 Experiências Técnicas
 --------------------------------------------------------------------------------
 
-Implementei várias soluções marcantes, inusitadas e de grande impácto e compartilho algumas bastante criativas:
+Implementei várias soluções marcantes, inusitadas e de grande impacto e compartilho algumas bastante criativas:
 
 #### &raquo; Criação do sistema zimbrahelpdesk
 
