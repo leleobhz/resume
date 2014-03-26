@@ -43,7 +43,7 @@ Formação Acadêmica
 
 &raquo;&raquo; Tempo de atuação: 2010~2012  
 &raquo;&raquo; Curso: Física Computacional  
-&raquo;&raquo; Curso interrompido para mudança de área acadêmica, enfocando Telecomunicações  
+&raquo;&raquo;&raquo; Curso interrompido para mudança de área acadêmica, enfocando Telecomunicações e Administração de Sistemas.  
 
 Certificações
 --------------------------------------------------------------------------------
