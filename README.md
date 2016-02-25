@@ -2,8 +2,8 @@ Leonardo Silva Amaral
 ================================================================================
 
 &raquo;		E-Mail: <contato@leonardoamaral.com.br>  
-&raquo;		Telefone: [+55 19 98263-7330] (tel:+5519982637330)
-&raquo;		Telefone: [+55 19 4042-0555] (tel:+551940420555)
+&raquo;		Telefone: [+55 19 98263-7330] (tel:+5519982637330)  
+&raquo;		Telefone: [+55 19 4042-0555] (tel:+551940420555)  
 &raquo;		[Resume no GitHub](https://github.com/leleobhz/resume)  
 
 O profissional
@@ -37,13 +37,13 @@ Experiências Profissionais
 &raquo;&raquo; Atividades: Administração de todo o maquinário do DataCenter do provedor tal como seus serviços de rede. Atua na implementação e manutenção do AS e dos links de Trânsito e conectividade à PTTs - especialmente o PTT-Metro SP.  
 
 #### &raquo; SecUnix Consultoria
-&raquo;&raquo; Tempo de atuação: 04/2014 - 04/2015
-&raquo;&raquo; Área de atuação: Administração de Sistemas Linux
+&raquo;&raquo; Tempo de atuação: 04/2014 - 04/2015  
+&raquo;&raquo; Área de atuação: Administração de Sistemas Linux  
 &raquo;&raquo; Atividades: Administração, implementação, suporte e desenvolvimento de soluções baseadas em Linux em nível intermediário e avançado.
 
 #### &raquo; UPX Technologies
-&raquo;&raquo; Tempo de atuação: 07/2015 - Atual
-&raquo;&raquo; Área de atuação: Administração de Redes
+&raquo;&raquo; Tempo de atuação: 07/2015 - Atual  
+&raquo;&raquo; Área de atuação: Administração de Redes  
 &raquo;&raquo; Atividades: Implementação e manutenção do produto IP Transit Security e de soluções relacionadas a mitigação de DDoS em Trânsito IP.
 
 Formação Acadêmica
