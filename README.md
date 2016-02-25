@@ -41,7 +41,7 @@ Experiências Profissionais
 &raquo;&raquo; Área de atuação: Administração de Sistemas Linux  
 &raquo;&raquo; Atividades: Administração, implementação, suporte e desenvolvimento de soluções baseadas em Linux em nível intermediário e avançado.
 
-#### &raquo; UPX Technologies
+#### &raquo; UPX Technologies - ASN 52863
 &raquo;&raquo; Tempo de atuação: 07/2015 - Atual  
 &raquo;&raquo; Área de atuação: Administração de Redes  
 &raquo;&raquo; Atividades: Implementação e manutenção do produto IP Transit Security e de soluções relacionadas a mitigação de DDoS em Trânsito IP.
