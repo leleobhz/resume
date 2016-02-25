@@ -2,8 +2,8 @@ Leonardo Silva Amaral
 ================================================================================
 
 &raquo;		E-Mail: <contato@leonardoamaral.com.br>  
-&raquo;		Telefone: [+55 11 94916-0254] (tel:+5511949160254)  
-&raquo;		Telefone: [+55 16 98839-1896] (tel:+5516988391896)  
+&raquo;		Telefone: [+55 19 98263-7330] (tel:+5519982637330)
+&raquo;		Telefone: [+55 19 4042-0555] (tel:+551940420555)
 &raquo;		[Resume no GitHub](https://github.com/leleobhz/resume)  
 
 O profissional
@@ -27,14 +27,24 @@ Experiências Profissionais
 #### &raquo; Comjota Consultoria de TI
 
 &raquo;&raquo; Tempo de atuação: 2008 - Presente  
-&raquo;&raquo; Área de atuação: Administração de Servidores  
+&raquo;&raquo; Área de atuação: Administração de Sistemas
 &raquo;&raquo; Atividades: Implemento, administro e presto suporte nível 2 aos servidores da empresa e de seus clientes. Participo na criação de novas soluções e atendimento de demandas internas e externas.  
 
 #### &raquo; SCW Telecom - ASN 28138
 
-&raquo;&raquo; Tempo de atuação: 06/2012 - 04/2014  
+&raquo;&raquo; Tempo de atuação: 10/2012 - 04/2014  
 &raquo;&raquo; Área de atuação: Administração de Redes  
 &raquo;&raquo; Atividades: Administração de todo o maquinário do DataCenter do provedor tal como seus serviços de rede. Atua na implementação e manutenção do AS e dos links de Trânsito e conectividade à PTTs - especialmente o PTT-Metro SP.  
+
+#### &raquo; SecUnix Consultoria
+&raquo;&raquo; Tempo de atuação: 04/2014 - 04/2015
+&raquo;&raquo; Área de atuação: Administração de Sistemas Linux
+&raquo;&raquo; Atividades: Administração, implementação, suporte e desenvolvimento de soluções baseadas em Linux em nível intermediário e avançado.
+
+#### &raquo; UPX Technologies
+&raquo;&raquo; Tempo de atuação: 07/2015 - Atual
+&raquo;&raquo; Área de atuação: Administração de Redes
+&raquo;&raquo; Atividades: Implementação e manutenção do produto IP Transit Security e de soluções relacionadas a mitigação de DDoS em Trânsito IP.
 
 Formação Acadêmica
 --------------------------------------------------------------------------------
@@ -48,7 +58,7 @@ Formação Acadêmica
 Certificações
 --------------------------------------------------------------------------------
 
-&raquo;&raquo; LPIC nível 2 - Identificador LPI000106747 / Código verificador hgwxf77vau  
+&raquo;&raquo; LPIC nível 2 - Identificador LPI000106747 / Código verificador hgwxf77vau
 &raquo;&raquo; Curso de IPv6 com ênfase em roteamento - Provido pelo NIC.br  
 &raquo;&raquo; Curso de boas práticas para Sistemas Autônomos - Provido pelo NIC.br  
 &raquo;&raquo; Curso para homologação de NR-35  
@@ -97,3 +107,6 @@ Sequer era necesário pools de compartilhamento, pendrives, PDFs ou qualquer out
 Também configurei os roteadores de saída dos departamentos de engenharia sanitária e ambiental e de engenharia de estruturas da Universidade Federal de Minas Gerais (UFMG) - cada departamento com um /24 válido e roteavel. 
 
 E a maior experiência em telecomunicações foi gerenciar o ASN 28138 da SCW Telecom - contendo um bloco /20 IPv4 e com um bloco /32 IPv6 em processo de implementação. Abriu-me o leque da experiência com redes LAN para redes CAN e MAN tanto em implementação com cabeamento Ethernet tanto com fibras ópticas e P2P sem fio. Desenvolvi experiencia com sistemas da Ubiquity e Mikrotik - com notavel implementação de um P2P de 9Km utilizando o AirFiber trafegando entre 200 e 500mbps em 24Ghz.
+
+#### &raquo; Backport do Samba 4.1 para CentOS 6
+&raquo;&raquo; Neste projeto, empacotei o Samba 4.1 e todos os pacotes necessários (sssd, kerberos, etc) para o CentOS 6, adicionando também o suporte ao PDC embarcado do samba e aos assistêntes de criação e migração de domínios.
