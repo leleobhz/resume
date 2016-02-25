@@ -2,8 +2,8 @@ Leonardo Silva Amaral
 ================================================================================
 
 &raquo;		E-Mail: <contato@leonardoamaral.com.br>  
-&raquo;		Telefone: [+55 19 98263-7330] (tel:+5519982637330)  
-&raquo;		Telefone: [+55 19 4042-0555] (tel:+551940420555)  
+&raquo;		Telefone: [+55 19 98263-7330](tel:+5519982637330)  
+&raquo;		Telefone: [+55 19 4042-0555](tel:+551940420555)  
 &raquo;		[Resume no GitHub](https://github.com/leleobhz/resume)  
 
 O profissional
