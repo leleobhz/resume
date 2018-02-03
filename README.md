@@ -17,11 +17,10 @@ E na última experiência, a entrada no mundo dos ISP's foi determinante para ma
 Experiências Profissionais
 --------------------------------------------------------------------------------
 
-#### &raquo; Prodabel - Processamento de Dados da Prefeitura de Belo Horizonte
-
-&raquo;&raquo; Tempo de atuação: 02/2006 - 08/2006  
-&raquo;&raquo; Área de atuação: Estágio em TI
-&raquo;&raquo; Atividades: Marca a primeira implementação em larga escala de sistemas com Linux: Participei paralelamente ao suporte com patches de sistema no desenvolvimento da Distribuição Linux Libertas - implementada pela prefeitura.  
+#### &raquo; UPX Technologies - ASN 52863
+&raquo;&raquo; Tempo de atuação: 07/2015 - Atual  
+&raquo;&raquo; Área de atuação: Administração de Redes  
+&raquo;&raquo; Atividades: Implementação e manutenção do produto IP Transit Security e de soluções relacionadas a mitigação de DDoS em Trânsito IP.
 
 #### &raquo; Comjota Consultoria de TI
 
@@ -29,21 +28,22 @@ Experiências Profissionais
 &raquo;&raquo; Área de atuação: Administração de Sistemas
 &raquo;&raquo; Atividades: Implemento, administro e presto suporte nível 2 aos servidores da empresa e de seus clientes. Participo na criação de novas soluções e atendimento de demandas internas e externas.  
 
+#### &raquo; SecUnix Consultoria
+&raquo;&raquo; Tempo de atuação: 04/2014 - 04/2015  
+&raquo;&raquo; Área de atuação: Administração de Sistemas Linux  
+&raquo;&raquo; Atividades: Administração, implementação, suporte e desenvolvimento de soluções baseadas em Linux em nível intermediário e avançado.
+
 #### &raquo; SCW Telecom - ASN 28138
 
 &raquo;&raquo; Tempo de atuação: 10/2012 - 04/2014  
 &raquo;&raquo; Área de atuação: Administração de Redes  
 &raquo;&raquo; Atividades: Administração de todo o maquinário do DataCenter do provedor tal como seus serviços de rede. Atua na implementação e manutenção do AS e dos links de Trânsito e conectividade à PTTs - especialmente o PTT-Metro SP.  
 
-#### &raquo; SecUnix Consultoria
-&raquo;&raquo; Tempo de atuação: 04/2014 - 04/2015  
-&raquo;&raquo; Área de atuação: Administração de Sistemas Linux  
-&raquo;&raquo; Atividades: Administração, implementação, suporte e desenvolvimento de soluções baseadas em Linux em nível intermediário e avançado.
+#### &raquo; Prodabel - Processamento de Dados da Prefeitura de Belo Horizonte
 
-#### &raquo; UPX Technologies - ASN 52863
-&raquo;&raquo; Tempo de atuação: 07/2015 - Atual  
-&raquo;&raquo; Área de atuação: Administração de Redes  
-&raquo;&raquo; Atividades: Implementação e manutenção do produto IP Transit Security e de soluções relacionadas a mitigação de DDoS em Trânsito IP.
+&raquo;&raquo; Tempo de atuação: 02/2006 - 08/2006  
+&raquo;&raquo; Área de atuação: Estágio em TI
+&raquo;&raquo; Atividades: Marca a primeira implementação em larga escala de sistemas com Linux: Participei paralelamente ao suporte com patches de sistema no desenvolvimento da Distribuição Linux Libertas - implementada pela prefeitura.  
 
 Formação Acadêmica
 --------------------------------------------------------------------------------
@@ -83,6 +83,7 @@ Todo o maquinário crítico foi reimplementado com Gentoo Hardened - devido a ma
 
 #### &raquo; PHP mal educado
 &raquo;&raquo; Em um determinado cliente da Comjota foi reportado lentidão extrema no seu website principal, hospedado internamente no NOC do cliente.  
+ 
 Averiguei altos tempos de processamento e travamentos no processamento PHP. O site estava com uma versão extremamente defasada de Wordpress com código PHP personalizado. Havia a suspeita de comprometimento dos arquivos do site.
 
 À empresa foi recomendada a construção de um novo website em uma plataforma atualizada e com políticas eficientes de desenvolvimento, porém pelo prazo da solução proposta, solicitei um servidor dedicado nos EUA (Devido ao preço) com uma configuração respeitável e migrei o website. 
