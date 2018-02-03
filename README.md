@@ -73,7 +73,7 @@ Implementei várias soluções marcantes, inusitadas e de grande impacto e compa
 
 O leque de experiências tornou-se maior ao implementar e manter o serviço de mitigação de DDoS e trânsito IP, onde implementei mecanismos envolvendo aplicações utilizando Netmap e solução de roteamento Juniper, dentre diversos filtros em hardwares diversos, como Mikrotiks, servidores x86 e plataformas fechadas. A experiência adquirida nesta função permitiu um aprendizado avançado de protocolos dinâmicos de roteamento, de sistemas de forwarding de alta velocidade programados em software/dpdk/netmap e sobre metodologias de operação em um provedor de trânsito IP com um leque diverso de clientes e do produto de mitigação de DDoS.
 
-A natureza crescentemente complexa dos DDoS foi um desafio que uniu toda a experiência em serviços de infraestrutura e núvem com a experiência em telecomunicações e redes MetroEthernet. Estas características unidas a um time gestor e operacional de excelente nível resultou em soluções inéditas no mercado e permitindo uma eficiência em mitigação dificilmente alcançada com grandes players internacionais.
+A natureza crescentemente complexa dos DDoS foi um desafio que uniu toda a experiência em serviços de infraestrutura e nuvem com a experiência em telecomunicações e redes MetroEthernet. Estas características unidas a um time gestor e operacional de excelente nível resultou em soluções inéditas no mercado e permitindo uma eficiência em mitigação dificilmente alcançada com grandes players internacionais.
 
 #### &raquo; Primeira experiência em ISP: SCW Telecom e sua reestruturação
 
