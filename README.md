@@ -25,7 +25,7 @@ Experiências Profissionais
 #### &raquo; Comjota Consultoria de TI
 
 &raquo;&raquo; Tempo de atuação: 2008 - Presente  
-&raquo;&raquo; Área de atuação: Administração de Sistemas
+&raquo;&raquo; Área de atuação: Administração de Sistemas  
 &raquo;&raquo; Atividades: Implemento, administro e presto suporte nível 2 aos servidores da empresa e de seus clientes. Participo na criação de novas soluções e atendimento de demandas internas e externas.  
 
 #### &raquo; SecUnix Consultoria
@@ -42,7 +42,7 @@ Experiências Profissionais
 #### &raquo; Prodabel - Processamento de Dados da Prefeitura de Belo Horizonte
 
 &raquo;&raquo; Tempo de atuação: 02/2006 - 08/2006  
-&raquo;&raquo; Área de atuação: Estágio em TI
+&raquo;&raquo; Área de atuação: Estágio em TI  
 &raquo;&raquo; Atividades: Marca a primeira implementação em larga escala de sistemas com Linux: Participei paralelamente ao suporte com patches de sistema no desenvolvimento da Distribuição Linux Libertas - implementada pela prefeitura.  
 
 Formação Acadêmica
@@ -66,20 +66,28 @@ Certificações
 Experiências Técnicas
 --------------------------------------------------------------------------------
 
-Implementei várias soluções marcantes, inusitadas e de grande impacto e compartilho algumas bastante criativas:
+Implementei várias soluções marcantes, inusitadas e de grande impacto e compartilho algumas bastante criativas - ordenadas pelas mais recentes:
 
-#### &raquo; Criação do sistema zimbrahelpdesk
+#### &raquo; Roteamento e gerenciamento avançado de redes: UPX Technologies e mitigação de DDoS
+&raquo;&raquo; A partir da experiência com o ISP SCW, meu interesse em telecomunicações se tornou ainda mais latente, sem perder o tato com infraestrutura de serviços computacionais. Deste blend, surgiu a oportunidade de participar das operações do AS 52863 - UPX Technologies  
 
-&raquo;&raquo; A Santa Casa de Misericórdia de Belo Horizonte - atendida pela Comjota - reportou a necessidade de um sistema leve e em console para troca de senhas do sistema de email em caso de bloqueio por erro. Entretanto o Helpdesks não poderiam ter acesso privilégiado ao sistema de email.  
+O leque de experiências tornou-se maior ao implementar e manter o serviço de mitigação de DDoS e trânsito IP, onde implementei mecanismos envolvendo aplicações utilizando Netmap e solução de roteamento Juniper, dentre diversos filtros em hardwares diversos, como Mikrotiks, servidores x86 e plataformas fechadas. A experiência adquirida nesta função permitiu um aprendizado avançado de protocolos dinâmicos de roteamento, de sistemas de forwarding de alta velocidade programados em software/dpdk/netmap e sobre metodologias de operação em um provedor de trânsito IP com um leque diverso de clientes e do produto de mitigação de DDoS.
 
-Aproveitando a disponibilidade de cliente de terminal em todas as estações, desenvolvi o zimbrahelpdesk utilizando o projeto [2502](https://github.com/caetanus/resume/blob/master/resume-pt_br.rst#2502) do desenvolvedor Marcelo Caetano - visando uma interface de console limpa com controle de acesso via PAM ao sistema de troca de senha - aprovado e implementdo pela gestão de TI.
+A natureza crescentemente complexa dos DDoS foi um desafio que uniu toda a experiência em serviços de infraestrutura e núvem com a experiência em telecomunicações e redes MetroEthernet. Estas características unidas a um time gestor e operacional de excelente nível resultou em soluções inéditas no mercado e permitindo uma eficiência em mitigação dificilmente alcançada com grandes players internacionais.
 
-#### &raquo; Reestruração da SCW Telecom
-&raquo;&raquo; A SCW Telecom é um ISP portador do ASN 28138 na cidade de São Carlos. O provedor encontrava-se sem administrador de sistema - tendo perdido muitos clientes devido a downtimes e incidentes.  
+#### &raquo; Primeira experiência em ISP: SCW Telecom e sua reestruturação
+
+&raquo;&raquo; O primeiro trabalho em redes diferentes do perfil de redes LAN (Redes privada de classe B ou C com NAT no roteador de saída e um único IP público) foi em um pequeno link de 512kbps contratado para meu uso com 8 ips.  
+
+Também configurei a rede e internet dos departamentos de engenharia sanitária e ambiental e de engenharia de estruturas da Universidade Federal de Minas Gerais (UFMG) - cada departamento com um /24 válido e roteavel - durante a experiência na empresa Comjota. Já havia neste momento uma inclinação para estudos mais avançados de redes de computadores.
+
+E se tornou um marco na experiência a gestão do ASN 28138 da SCW Telecom - ISP que conta com um bloco /20 IPv4 e com um bloco /32 IPv6 em processo de implementação. Abriu-me o leque da experiência com redes LAN para redes CAN e MAN tanto em implementação com cabeamento Ethernet tanto com fibras ópticas e P2P sem fio. Desenvolvi experiencia com sistemas da Ubiquity e Mikrotik.
+
+A SCW Telecom é um ISP portador do ASN 28138 na cidade de São Carlos. O provedor encontrava-se sem administrador de sistema - tendo perdido muitos clientes devido a downtimes e incidentes.
 
 Encontrei soluções legadas inviáveis de manter. Os servidores rodavam Slackware e alguns usavam o VirtualBox Headless como virtualizador - sem documentação nem padronização. Os acordos de Peering estavam documentados somente nas configurações do roteador de borda e foi necessária engenharia reversa das configurações para iniciar o reestabelecimento das sessões. 
 
-Todo o maquinário crítico foi reimplementado com Gentoo Hardened - devido a manutenção dos patches de segurança Grsec e PAX com controle RBAC - e a virtualização implementada com Xen + FLask/XSM e Gentoo Hardened, respeitando a padronização dos guias da distribuição. Criei a documentação e hospedei-a em repositório Mercurial externo. Mais detalhes podem ser descritos em uma oportunidade de contato.
+Todo o maquinário crítico foi reimplementado com Gentoo Hardened - devido a manutenção dos patches de segurança Grsec e PAX com controle RBAC - e a virtualização implementada com Xen + FLask/XSM e Gentoo Hardened, respeitando a padronização dos guias da distribuição. Criei a documentação e hospedei-a em repositório Mercurial externo. Esta experiência, sendo a primeira em Telecom, foi responsável pela minha paixão e introdução ao mundo das Telecomunicações e de redes MetroEthernet.
 
 #### &raquo; PHP mal educado
 &raquo;&raquo; Em um determinado cliente da Comjota foi reportado lentidão extrema no seu website principal, hospedado internamente no NOC do cliente.  
@@ -96,12 +104,8 @@ A solução visava trocar uma certa penalidade em performance (Compensada com o 
 
 Esta experiência demonstra capacidade técnica e criativa para resolução de problemas complexos envolvendo sistemas operacionais baseados em Linux, característica única em um contexto cada vez mais flexível em relação à infraestrutura de serviços.
 
-#### &raquo; Roteamento e gerenciamento avançado de redes
-&raquo;&raquo; O primeiro trabalho em redes diferentes do perfil atual de LAN (Rede privada classe B ou C com NAT no roteador de saída e um único IP público) foi em um pequeno link de 512kbps contratado para meu uso com 8 ips.  
+#### &raquo; Criação do sistema zimbrahelpdesk
 
-Também configurei os roteadores de saída dos departamentos de engenharia sanitária e ambiental e de engenharia de estruturas da Universidade Federal de Minas Gerais (UFMG) - cada departamento com um /24 válido e roteavel. 
+&raquo;&raquo; A Santa Casa de Misericórdia de Belo Horizonte - atendida pela Comjota - reportou a necessidade de um sistema leve e em console para troca de senhas do sistema de email em caso de bloqueio por erro. Entretanto o Helpdesks não poderiam ter acesso privilégiado ao sistema de email.  
 
-E se tornou um marco na experiência em telecomunicações, gerenciar o ASN 28138 da SCW Telecom - contendo um bloco /20 IPv4 e com um bloco /32 IPv6 em processo de implementação. Abriu-me o leque da experiência com redes LAN para redes CAN e MAN tanto em implementação com cabeamento Ethernet tanto com fibras ópticas e P2P sem fio. Desenvolvi experiencia com sistemas da Ubiquity e Mikrotik.
-
-O leque de experiências tornou-se maior ao implementar e manter o serviço de mitigação de DDoS e trânsito IP para o ASN 52863 - UPX Techologies, onde implementei mecanismos envolvendo aplicações utilizando Netmap e solução de roteamento Juniper, dentre diversos filtros em hardwares diversos, como Mikrotiks, servidores x86 e plataformas fechadas. A experiência adquirida nesta função permitiu um aprendizado avançado de protocolos dinâmicos de roteamento, de sistemas de forwarding de alta velocidade programados em software/dpdk/netmap e sobre metodologias de operação em um provedor de trânsito IP com um leque diverso de clientes e do produto de mitigação.
-
+Aproveitando a disponibilidade de cliente de terminal em todas as estações, desenvolvi o zimbrahelpdesk utilizando o projeto [2502](https://github.com/caetanus/resume/blob/master/resume-pt_br.rst#2502) do desenvolvedor Marcelo Caetano - visando uma interface de console limpa com controle de acesso via PAM ao sistema de troca de senha - aprovado e implementdo pela gestão de TI.
