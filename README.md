@@ -3,7 +3,6 @@ Leonardo Silva Amaral
 
 &raquo;		E-Mail: <contato@leonardoamaral.com.br>  
 &raquo;		Telefone: [+55 19 98263-7330](tel:+5519982637330)  
-&raquo;		Telefone: [+55 19 4042-0555](tel:+551940420555)  
 &raquo;		[Resume no GitHub](https://github.com/leleobhz/resume)  
 
 O profissional
@@ -58,7 +57,7 @@ Formação Acadêmica
 Certificações
 --------------------------------------------------------------------------------
 
-&raquo;&raquo; LPIC nível 2 - Identificador LPI000106747 / Código verificador hgwxf77vau
+&raquo;&raquo; LPIC nível 2 - Identificador LPI000106747 / Código verificador hgwxf77vau (A renovar)  
 &raquo;&raquo; Curso de IPv6 com ênfase em roteamento - Provido pelo NIC.br  
 &raquo;&raquo; Curso de boas práticas para Sistemas Autônomos - Provido pelo NIC.br  
 &raquo;&raquo; Curso para homologação de NR-35  
@@ -71,12 +70,12 @@ Implementei várias soluções marcantes, inusitadas e de grande impacto e compa
 
 #### &raquo; Criação do sistema zimbrahelpdesk
 
-&raquo;&raquo; A Santa Casa de Misericórdia de Belo Horizonte - atendida pela Comjota - reportou a necessidade de um sistema leve e em console para troca de senhas do sistema de email em caso de bloqueio por erro. Entretanto o Helpdesks não poderiam ter acesso privilégiado ao sistema de email. 
+&raquo;&raquo; A Santa Casa de Misericórdia de Belo Horizonte - atendida pela Comjota - reportou a necessidade de um sistema leve e em console para troca de senhas do sistema de email em caso de bloqueio por erro. Entretanto o Helpdesks não poderiam ter acesso privilégiado ao sistema de email.  
 
 Aproveitando a disponibilidade de cliente de terminal em todas as estações, desenvolvi o zimbrahelpdesk utilizando o projeto [2502](https://github.com/caetanus/resume/blob/master/resume-pt_br.rst#2502) do desenvolvedor Marcelo Caetano - visando uma interface de console limpa com controle de acesso via PAM ao sistema de troca de senha - aprovado e implementdo pela gestão de TI.
 
 #### &raquo; Reestruração da SCW Telecom
-&raquo;&raquo; A SCW Telecom é um ISP portador do ASN 28138 na cidade de São Carlos. O provedor encontrava-se sem administrador de sistema - tendo perdido muitos clientes devido a downtimes e incidentes. 
+&raquo;&raquo; A SCW Telecom é um ISP portador do ASN 28138 na cidade de São Carlos. O provedor encontrava-se sem administrador de sistema - tendo perdido muitos clientes devido a downtimes e incidentes.  
 
 Encontrei soluções legadas inviáveis de manter. Os servidores rodavam Slackware e alguns usavam o VirtualBox Headless como virtualizador - sem documentação nem padronização. Os acordos de Peering estavam documentados somente nas configurações do roteador de borda e foi necessária engenharia reversa das configurações para iniciar o reestabelecimento das sessões. 
 
@@ -92,21 +91,16 @@ Entretanto percebido processos bloqueantes nestes códigos, exigindo migração 
 
 O website foi migrado e os parametros do PHP ajustados para trabalhar mais confortável com o workload de cada domínio. Além do perfeito isolamento do PHP em relação ao webserver - evitando a carga de conteúdo estático e que algum código PHP mal intencionado se prolifere para outros sites ou para o sistema - implementei um sistema de proxy-cache reverso utilizando Varnish e o acesso aos desenvolvedores do site foi provido com uma solução mista de SFTP/SSH com chroot e bind mounting, provendo completo isolamento entre usuários e permitindo ao desenvolvedor introduzir mudanças nos parametros do apache2.conf e no php.ini para um fine-tuning de todo processo.
 
-A solução visava trocar uma certa penalidade em performance (Compensada com o servidor mais potente) por escalabilidade sem precedentes, já que cada sessão do website abria em uma thread diferente e outras sessões não travam ou atrapalham, resolvendo o problema por completo. O servidor encontra-se atualmente com mais de 130 dias de uptime e mesmo após a implementação de um novo site, o servidor permanece operante e sem sobrecarga ou problemas de manutenção de configuração.
+A solução visava trocar uma certa penalidade em performance (Compensada com o servidor mais potente) por escalabilidade sem precedentes, já que cada sessão do website abria em uma thread diferente e outras sessões não travam ou atrapalham, resolvendo o problema por completo.
 
-#### &raquo; Scanner em rede
-&raquo;&raquo; Compartilhar impressoras em rede é muito trivial, mas e um pool de scanners? 
-
-Em um cliente especializado em marketing, foi passada esta demanda e a mesma foi solucionada com saned + xinetd + xsane nos clientes. 
-
-Sequer era necesário pools de compartilhamento, pendrives, PDFs ou qualquer outra solução: O scanner funcionava na estação como se estivesse local, permitindo enquadramento, escolha de formato, ajuste de imagem e qualquer outra opção que o scanner suportasse.
+Esta experiência demonstra capacidade técnica e criativa para resolução de problemas complexos envolvendo sistemas operacionais baseados em Linux, característica única em um contexto cada vez mais flexível em relação à infraestrutura de serviços.
 
 #### &raquo; Roteamento e gerenciamento avançado de redes
-&raquo;&raquo; O primeiro trabalho em redes diferentes do perfil atual de LAN (Rede privada classe B ou C com NAT no roteador de saída e um único IP público) foi em um pequeno link de 512kbps contratado para meu uso com 8 ips.
+&raquo;&raquo; O primeiro trabalho em redes diferentes do perfil atual de LAN (Rede privada classe B ou C com NAT no roteador de saída e um único IP público) foi em um pequeno link de 512kbps contratado para meu uso com 8 ips.  
 
 Também configurei os roteadores de saída dos departamentos de engenharia sanitária e ambiental e de engenharia de estruturas da Universidade Federal de Minas Gerais (UFMG) - cada departamento com um /24 válido e roteavel. 
 
-E a maior experiência em telecomunicações foi gerenciar o ASN 28138 da SCW Telecom - contendo um bloco /20 IPv4 e com um bloco /32 IPv6 em processo de implementação. Abriu-me o leque da experiência com redes LAN para redes CAN e MAN tanto em implementação com cabeamento Ethernet tanto com fibras ópticas e P2P sem fio. Desenvolvi experiencia com sistemas da Ubiquity e Mikrotik - com notavel implementação de um P2P de 9Km utilizando o AirFiber trafegando entre 200 e 500mbps em 24Ghz.
+E se tornou um marco na experiência em telecomunicações, gerenciar o ASN 28138 da SCW Telecom - contendo um bloco /20 IPv4 e com um bloco /32 IPv6 em processo de implementação. Abriu-me o leque da experiência com redes LAN para redes CAN e MAN tanto em implementação com cabeamento Ethernet tanto com fibras ópticas e P2P sem fio. Desenvolvi experiencia com sistemas da Ubiquity e Mikrotik.
 
-#### &raquo; Backport do Samba 4.1 para CentOS 6
-&raquo;&raquo; Neste projeto, empacotei o Samba 4.1 e todos os pacotes necessários (sssd, kerberos, etc) para o CentOS 6, adicionando também o suporte ao PDC embarcado do samba e aos assistêntes de criação e migração de domínios.
+O leque de experiências tornou-se maior ao implementar e manter o serviço de mitigação de DDoS e trânsito IP para o ASN 52863 - UPX Techologies, onde implementei mecanismos envolvendo aplicações utilizando Netmap e solução de roteamento Juniper, dentre diversos filtros em hardwares diversos, como Mikrotiks, servidores x86 e plataformas fechadas. A experiência adquirida nesta função permitiu um aprendizado avançado de protocolos dinâmicos de roteamento, de sistemas de forwarding de alta velocidade programados em software/dpdk/netmap e sobre metodologias de operação em um provedor de trânsito IP com um leque diverso de clientes e do produto de mitigação.
+
