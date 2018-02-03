@@ -12,7 +12,9 @@ Desde o primeiro contato com computadores, sempre me fascinou o funcionamento de
 
 Os anos de experiência com ambiente corporativo mostraram - e ainda mostram - um desafio constante na manutenção das telecomunicações e sistemas como plano de fundo para todos os serviços fundamentais nos negócios.
 
-E na última experiência, a entrada no mundo dos ISP's foi determinante para maior interesse em telecomunicações e soluções livres de apoio tecnológico a negócios e serviços.
+A oportunidade de operar um ISP foi a porta de entrada no mundo de Telecomunicações e foi determinante para maior interesse integrar telecomunicações e soluções livres visando apoio tecnológico corporativo.
+
+A duradoura experiência em Sistemas Linux, aliada com uma intensa imersão no mundo de Telecomunicações gerou muitos frutos inovadores e inexplorados, consolidando meu posicionamento profissional com bastante solidez e criatividade.
 
 Experiências Profissionais
 --------------------------------------------------------------------------------
