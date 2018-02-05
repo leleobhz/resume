@@ -8,13 +8,13 @@ Leonardo Silva Amaral
 O profissional
 --------------------------------------------------------------------------------
 
-Desde o primeiro contato com computadores, sempre me fascinou o funcionamento deles. A progressão do aprendizado e o interesse em sistemas Linux, na filosofia de sistemas abertos e em redes tornou-me Administrador de Sistemas.
+Desde o primeiro contato com computadores, sempre me fascinou o funcionamento deles. A progressão do aprendizado e o interesse em sistemas Linux, na filosofia de sistemas abertos e em redes tornou-me um Administrador de Sistemas.
 
 Os anos de experiência com ambiente corporativo mostraram - e ainda mostram - um desafio constante na manutenção das telecomunicações e sistemas como plano de fundo para todos os serviços fundamentais nos negócios.
 
-A oportunidade de operar um ISP foi a porta de entrada no mundo de Telecomunicações e foi determinante para maior interesse integrar telecomunicações e soluções livres visando apoio tecnológico corporativo.
+A oportunidade de operar um ISP foi uma "porta de entrada" para o mundo de Telecomunicações e foi determinante para maior interesse em integrar telecomunicações e soluções livres visando apoio tecnológico corporativo.
 
-A duradoura experiência em Sistemas Linux, aliada com uma intensa imersão no mundo de Telecomunicações gerou muitos frutos inovadores e inexplorados, consolidando meu posicionamento profissional com bastante solidez e criatividade.
+A duradoura experiência em Sistemas Linux, aliada a intensa imersão no mundo de Telecomunicações gerou frutos inovadores e inexplorados, consolidando meu posicionamento profissional com bastante solidez e criatividade.
 
 Experiências Profissionais
 --------------------------------------------------------------------------------
@@ -28,7 +28,7 @@ Experiências Profissionais
 
 &raquo;&raquo; Tempo de atuação: 2008 - Presente  
 &raquo;&raquo; Área de atuação: Administração de Sistemas  
-&raquo;&raquo; Atividades: Implemento, administro e presto suporte nível 2 aos servidores da empresa e de seus clientes. Participo na criação de novas soluções e atendimento de demandas internas e externas.  
+&raquo;&raquo; Atividades: Implementação, administração e prestação suporte nível dois (2) aos servidores da empresa e de seus clientes. Participação na criação de novas soluções e atendimento de demandas internas e externas.  
 
 #### &raquo; SecUnix Consultoria
 &raquo;&raquo; Tempo de atuação: 04/2014 - 04/2015  
@@ -39,13 +39,13 @@ Experiências Profissionais
 
 &raquo;&raquo; Tempo de atuação: 10/2012 - 04/2014  
 &raquo;&raquo; Área de atuação: Administração de Redes  
-&raquo;&raquo; Atividades: Administração de todo o maquinário do DataCenter do provedor tal como seus serviços de rede. Atua na implementação e manutenção do AS e dos links de Trânsito e conectividade à PTTs - especialmente o PTT-Metro SP.  
+&raquo;&raquo; Atividades: Administração de todo o DataCenter do provedor tal como dos seus serviços de rede e trânsito IP. Responsável por inovações e manutenção do AS e dos links de Trânsito e conectividade à PTTs - especialmente o PTT-Metro SP.  
 
 #### &raquo; Prodabel - Processamento de Dados da Prefeitura de Belo Horizonte
 
 &raquo;&raquo; Tempo de atuação: 02/2006 - 08/2006  
 &raquo;&raquo; Área de atuação: Estágio em TI  
-&raquo;&raquo; Atividades: Marca a primeira implementação em larga escala de sistemas com Linux: Participei paralelamente ao suporte com patches de sistema no desenvolvimento da Distribuição Linux Libertas - implementada pela prefeitura.  
+&raquo;&raquo; Atividades: Marca a primeira implementação em larga escala de sistemas com Linux: Partipação paralela ao suporte com patches de sistema no desenvolvimento da Distribuição Linux Libertas - sendo implementada pela prefeitura.  
 
 Formação Acadêmica
 --------------------------------------------------------------------------------
@@ -68,7 +68,7 @@ Certificações
 Experiências Técnicas
 --------------------------------------------------------------------------------
 
-Implementei várias soluções marcantes, inusitadas e de grande impacto e compartilho algumas bastante criativas - ordenadas pelas mais recentes:
+Implementei soluções marcantes, inusitadas e de grande impacto e compartilho algumas bastante criativas e ordenadas pelas mais recentes:
 
 #### &raquo; Roteamento e gerenciamento avançado de redes: UPX Technologies e mitigação de DDoS
 &raquo;&raquo; A partir da experiência com o ISP SCW, meu interesse em telecomunicações se tornou ainda mais latente, sem perder o tato com infraestrutura de serviços computacionais. Deste blend, surgiu a oportunidade de participar das operações do AS 52863 - UPX Technologies  
