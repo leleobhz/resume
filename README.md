@@ -22,13 +22,13 @@ Experiências Profissionais
 #### &raquo; UPX Technologies - ASN 52863
 &raquo;&raquo; Tempo de atuação: 07/2015 - Atual  
 &raquo;&raquo; Área de atuação: Administração de Redes  
-&raquo;&raquo; Atividades: Implementação e manutenção do produto IP Transit Security e de soluções relacionadas a mitigação de DDoS em Trânsito IP.
+&raquo;&raquo; Atividades: Implementação e manutenção do produto IP Transit Security e de soluções relacionadas a mitigação de DDoS em Trânsito IP; criou toda a estrutura de software e topologia periférica da solução bem inovou na criação de novos fltros Anti-DDoS não existêntes em outras soluções. Atuou como operador principal de toda a estrutura de rede MetroEthernet e Trânsito IP que serve tanto ao sistema de mitigação e servidores internos de outras soluções quanto aos clientes de trânsito sem proteção.
 
 #### &raquo; Comjota Consultoria de TI
 
 &raquo;&raquo; Tempo de atuação: 2008 - Presente  
 &raquo;&raquo; Área de atuação: Administração de Sistemas  
-&raquo;&raquo; Atividades: Implementação, administração e prestação suporte nível dois (2) aos servidores da empresa e de seus clientes. Participação na criação de novas soluções e atendimento de demandas internas e externas.  
+&raquo;&raquo; Atividades: Implementação, administração e prestação suporte nível dois (2) e três (3) aos servidores da empresa e de seus clientes. Participação ativa na criação de novas soluções e atendimento de demandas internas e externas, como na criação de sistemas para clientes e modelagem de infraestrutura.  
 
 #### &raquo; SecUnix Consultoria
 &raquo;&raquo; Tempo de atuação: 04/2014 - 04/2015  
@@ -68,7 +68,7 @@ Certificações
 Experiências Técnicas
 --------------------------------------------------------------------------------
 
-Implementei soluções marcantes, inusitadas e de grande impacto e compartilho algumas bastante criativas e ordenadas pelas mais recentes:
+Implementei soluções marcantes, inusitadas e de grande impacto e compartilho algumas bastante criativas. Descrevo algumas procurando destacar os pontos onde elas demonstraram a capacidade de aliar solido conhecimento técnico com criatividade e inovação:
 
 #### &raquo; Roteamento e gerenciamento avançado de redes: UPX Technologies e mitigação de DDoS
 &raquo;&raquo; A partir da experiência com o ISP SCW, meu interesse em telecomunicações se tornou ainda mais latente, sem perder o tato com infraestrutura de serviços computacionais. Deste blend, surgiu a oportunidade de participar das operações do AS 52863 - UPX Technologies  
