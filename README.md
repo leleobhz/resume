@@ -2,7 +2,7 @@ Leonardo Silva Amaral
 ================================================================================
 
 &raquo;		E-Mail: <contato@leonardoamaral.com.br>  
-&raquo;		Telefone: [+55 19 98263-7330](tel:+5519982637330)  
+&raquo;		Telefone: [+55 19 99348-2001](tel:+5519993482001)  
 &raquo;		[Resume no GitHub](https://github.com/leleobhz/resume)  
 
 O profissional
@@ -19,14 +19,19 @@ A duradoura experiência em Sistemas Linux, aliada a intensa imersão no mundo d
 Experiências Profissionais
 --------------------------------------------------------------------------------
 
+#### &raquo; Zenith Tecnologia
+&raquo;&raquo; Tempo de atuação: 08/2018 - Presente  
+&raquo;&raquo; Área de atuação: Fundador/Engenharia  
+&raquo;&raquo; Atividades: A Zenith Tecnologia é uma empresa fundada com a missão de prover soluções de alta complexidade e inovação tecnologica na área de engenharia de telecomunicações e infraestrutura de dados. Atua especialmente em consultoria para sistemas em nuvem e mitigação de DDoS para grandes ITPs, ISPs e Datacenters.
+
 #### &raquo; UPX Technologies - ASN 52863
-&raquo;&raquo; Tempo de atuação: 07/2015 - Atual  
-&raquo;&raquo; Área de atuação: Administração de Redes  
+&raquo;&raquo; Tempo de atuação: 07/2015 - 04/2018   
+&raquo;&raquo; Área de atuação: Administração de Redes   
 &raquo;&raquo; Atividades: Implementação e manutenção do produto IP Transit Security e de soluções relacionadas a mitigação de DDoS em Trânsito IP; criou toda a estrutura de software e topologia periférica da solução bem inovou na criação de novos fltros Anti-DDoS não existêntes em outras soluções. Atuou como operador principal de toda a estrutura de rede MetroEthernet e Trânsito IP que serve tanto ao sistema de mitigação e servidores internos de outras soluções quanto aos clientes de trânsito sem proteção.
 
 #### &raquo; Comjota Consultoria de TI
 
-&raquo;&raquo; Tempo de atuação: 2008 - Presente  
+&raquo;&raquo; Tempo de atuação: 2008 - Prestação Continuada como PJ  
 &raquo;&raquo; Área de atuação: Administração de Sistemas  
 &raquo;&raquo; Atividades: Implementação, administração e prestação suporte nível dois (2) e três (3) aos servidores da empresa e de seus clientes. Participação ativa na criação de novas soluções e atendimento de demandas internas e externas, como na criação de sistemas para clientes e modelagem de infraestrutura.  
 
