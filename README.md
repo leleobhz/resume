@@ -16,8 +16,20 @@ A oportunidade de operar um ISP foi uma "porta de entrada" para o mundo de Telec
 
 A duradoura experiência em Sistemas Linux, aliada a intensa imersão no mundo de Telecomunicações gerou frutos inovadores e inexplorados, consolidando meu posicionamento profissional com bastante solidez e criatividade.
 
+Atualmente me posiciono como SRE e DevOps com larga experiência em Kubernetes, Docker, Observability com Zabbix e Netcool e larga experiência em operação de Backbone IP e telecomunicações IP.
+
 Experiências Profissionais
 --------------------------------------------------------------------------------
+
+#### &raquo; IcaroTech
+&raquo;&raquo; Tempo de atuação: 05/2022 - presente  
+&raquo;&raquo; Área de atuação: SRE e DevOps  
+&raquo;&raquo; Atividades: Alocado no Chapter DevOps, atuo em clientes como TIM, IBM Consulting, Vero Internet, Ligga Telecom e outros, operando soluções como Docker, Kubernetes, OpenShift, IBM CloudPak for AIOps e IBM CloudPak for Integrations, bem como atuei em observability com os sistemas IBM Tivoli Netcool e IBM AIOps.
+
+#### &raquo; Jusbrasil
+&raquo;&raquo; Tempo de atuação: 06/2021 - 03/2022  
+&raquo;&raquo; Área de atuação: SRE e DevOps  
+&raquo;&raquo; Atividades: Migração em escopo fechado da estrutura de banco de dados MongoDB do sistema de Coleta Processual da infraestrutura on premisses para estrutura em Google Cloud.
 
 #### &raquo; Zenith Tecnologia
 &raquo;&raquo; Tempo de atuação: 08/2018 - Presente  
@@ -64,7 +76,8 @@ Formação Acadêmica
 Certificações
 --------------------------------------------------------------------------------
 
-&raquo;&raquo; LPIC nível 2 - Identificador LPI000106747 / Código verificador hgwxf77vau (A renovar)  
+&raquo;&raquo; Membro da Linux Professional Institute - [https://people.lpi.org/m/b295796f-8a76-457e-9b31-14b0d9cd5013](https://people.lpi.org/m/b295796f-8a76-457e-9b31-14b0d9cd5013)  
+&raquo;&raquo; LPIC nível 2 - Identificador LPI000106747 / Código verificador hgwxf77vau  
 &raquo;&raquo; Curso de IPv6 com ênfase em roteamento - Provido pelo NIC.br  
 &raquo;&raquo; Curso de boas práticas para Sistemas Autônomos - Provido pelo NIC.br  
 &raquo;&raquo; Curso para homologação de NR-35  
@@ -74,6 +87,12 @@ Experiências Técnicas
 --------------------------------------------------------------------------------
 
 Implementei soluções marcantes, inusitadas e de grande impacto e compartilho algumas bastante criativas. Descrevo algumas procurando destacar os pontos onde elas demonstraram a capacidade de aliar solido conhecimento técnico com criatividade e inovação:
+
+#### &raquo; Dimensionamento, instalação e manutenção da infraestrutura de IBM CloudPak for AIOps
+&raquo;&raquo; Sou atualmente o DevOp responsável pela implementação pioneira do IBM CloudPak for AIOps na TIM Brasil, sendo responsável pelo dimensionamento, instalação, manutenção e resolução dos desafios de escala para o cliente TIM - com sizing inédito para o perfil da solução IBM.  
+
+#### &raquo; Migração do banco de Coleta Processual na Jusbrasil  
+&raquo;&raquo; O desafio da demanda fechada para migrar o banco de Coleta Processual consistia no fato da necessidade de migrar um MongoDB com 3 replicaSets contendo 10Tb de dados cada. O tamanho do banco e a disponibilidade dos dados enquanto havia a mudança foram o grande desafio vencido nesta implementação.  
 
 #### &raquo; Roteamento e gerenciamento avançado de redes: UPX Technologies e mitigação de DDoS
 &raquo;&raquo; A partir da experiência com o ISP SCW, meu interesse em telecomunicações se tornou ainda mais latente, sem perder o tato com infraestrutura de serviços computacionais. Deste blend, surgiu a oportunidade de participar das operações do AS 52863 - UPX Technologies  
@@ -96,23 +115,8 @@ Encontrei soluções legadas inviáveis de manter. Os servidores rodavam Slackwa
 
 Todo o maquinário crítico foi reimplementado com Gentoo Hardened - devido a manutenção dos patches de segurança Grsec e PAX com controle RBAC - e a virtualização implementada com Xen + FLask/XSM e Gentoo Hardened, respeitando a padronização dos guias da distribuição. Criei a documentação e hospedei-a em repositório Mercurial externo. Esta experiência, sendo a primeira em Telecom, foi responsável pela minha paixão e introdução ao mundo das Telecomunicações e de redes MetroEthernet.
 
-#### &raquo; PHP mal educado
-&raquo;&raquo; Em um determinado cliente da Comjota foi reportado lentidão extrema no seu website principal, hospedado internamente no NOC do cliente.  
- 
-Averiguei altos tempos de processamento e travamentos no processamento PHP. O site estava com uma versão extremamente defasada de Wordpress com código PHP personalizado. Havia a suspeita de comprometimento dos arquivos do site.
-
-À empresa foi recomendada a construção de um novo website em uma plataforma atualizada e com políticas eficientes de desenvolvimento, porém pelo prazo da solução proposta, solicitei um servidor dedicado nos EUA (Devido ao preço) com uma configuração respeitável e migrei o website. 
-
-Entretanto percebido processos bloqueantes nestes códigos, exigindo migração ligeiramente diferente do convencional: Optei em manter o Apache para evitar aborrecimentos com arquivos .htaccess e implementei o módulo mod\_fcgi com o PHP processado em diversas threads alocadas on-the-fly e com o UID do usuário dono do site (Que padronizei como o FQDN do site hospedado). Preparei todo o ambiente para manter em um único lugar - de forma organizada - os arquivos de configuração do domínio relativo ao apache2 e ao php e os arquivos do website. 
-
-O website foi migrado e os parametros do PHP ajustados para trabalhar mais confortável com o workload de cada domínio. Além do perfeito isolamento do PHP em relação ao webserver - evitando a carga de conteúdo estático e que algum código PHP mal intencionado se prolifere para outros sites ou para o sistema - implementei um sistema de proxy-cache reverso utilizando Varnish e o acesso aos desenvolvedores do site foi provido com uma solução mista de SFTP/SSH com chroot e bind mounting, provendo completo isolamento entre usuários e permitindo ao desenvolvedor introduzir mudanças nos parametros do apache2.conf e no php.ini para um fine-tuning de todo processo.
-
-A solução visava trocar uma certa penalidade em performance (Compensada com o servidor mais potente) por escalabilidade sem precedentes, já que cada sessão do website abria em uma thread diferente e outras sessões não travam ou atrapalham, resolvendo o problema por completo.
-
-Esta experiência demonstra capacidade técnica e criativa para resolução de problemas complexos envolvendo sistemas operacionais baseados em Linux, característica única em um contexto cada vez mais flexível em relação à infraestrutura de serviços.
-
 #### &raquo; Criação do sistema zimbrahelpdesk
 
 &raquo;&raquo; A Santa Casa de Misericórdia de Belo Horizonte - atendida pela Comjota - reportou a necessidade de um sistema leve e em console para troca de senhas do sistema de email em caso de bloqueio por erro. Entretanto o Helpdesks não poderiam ter acesso privilégiado ao sistema de email.  
 
-Aproveitando a disponibilidade de cliente de terminal em todas as estações, desenvolvi o zimbrahelpdesk utilizando o projeto [2502](https://github.com/caetanus/resume/blob/master/resume-pt_br.rst#2502) do desenvolvedor Marcelo Caetano - visando uma interface de console limpa com controle de acesso via PAM ao sistema de troca de senha - aprovado e implementdo pela gestão de TI.
+Aproveitando a disponibilidade de cliente de terminal em todas as estações, desenvolvi o zimbrahelpdesk utilizando o projeto [2502](https://github.com/caetanus/resume/blob/master/resume-pt_br.rst#2502) como base de comunicação - visando uma interface de console limpa com controle de acesso via PAM ao sistema de troca de senha - aprovado e implementdo pela gestão de TI.
