@@ -6,6 +6,7 @@ on:
     branches:
       - resume
     paths:
+      - '.gitea/workflows/convert-to-pdf.yml'
       - 'README.md'
 
 jobs:
@@ -18,8 +19,8 @@ jobs:
       - name: PDF Generation
         uses: baileyjm02/markdown-to-pdf@v1
         with:
-          input_dir: ./
-          output_dir: ./
+          input_dir: ../../workspace/leonardo/resume
+          output_dir: ../../workspace/leonardo/resume
           build_html: false
       - name: Rename PDF
         run: mv README.pdf leonardo_amaral_resume.pdf
