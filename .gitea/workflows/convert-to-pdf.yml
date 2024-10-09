@@ -19,7 +19,7 @@ jobs:
       - name: PDF Generation
         uses: DrMaxNix/markdown-to-pdf@main
         with:
-          input_dir: ./README.md
+          input_dir: ./
           output_dir: ./
           build_html: false
       - name: Rename PDF
