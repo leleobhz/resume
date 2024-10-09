@@ -17,10 +17,10 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
       - name: PDF Generation
-        uses: baileyjm02/markdown-to-pdf@v1
+        uses: DrMaxNix/markdown-to-pdf@v1
         with:
-          input_dir: ../../workspace/leonardo/resume
-          output_dir: ../../workspace/leonardo/resume
+          input_dir: ./README.md
+          output_dir: ./
           build_html: false
       - name: Rename PDF
         run: mv README.pdf leonardo_amaral_resume.pdf
