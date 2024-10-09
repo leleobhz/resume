@@ -3,7 +3,6 @@ Leonardo Silva Amaral
 
 &raquo;		E-Mail: <contato@leonardoamaral.com.br>  
 &raquo;		Telefone: [+55 19 99348-2001](tel:+5519993482001)  
-&raquo;		[Resume no GitHub](https://github.com/leleobhz/resume)  
 
 O profissional
 --------------------------------------------------------------------------------
@@ -120,3 +119,9 @@ Todo o maquinário crítico foi reimplementado com Gentoo Hardened - devido a ma
 &raquo;&raquo; A Santa Casa de Misericórdia de Belo Horizonte - atendida pela Comjota - reportou a necessidade de um sistema leve e em console para troca de senhas do sistema de email em caso de bloqueio por erro. Entretanto o Helpdesks não poderiam ter acesso privilégiado ao sistema de email.  
 
 Aproveitando a disponibilidade de cliente de terminal em todas as estações, desenvolvi o zimbrahelpdesk utilizando o projeto [2502](https://github.com/caetanus/resume/blob/master/resume-pt_br.rst#2502) como base de comunicação - visando uma interface de console limpa com controle de acesso via PAM ao sistema de troca de senha - aprovado e implementdo pela gestão de TI.
+
+Links de colaboração
+--------------------------------------------------------------------------------
+
+&raquo;&raquo; Github: [https://github.com/leleobhz/](https://github.com/leleobhz/)  
+&raquo;&raquo; Blog Técnico: [Um sysadmin cansado](https://blog.leonardoamaral.com.br/)
