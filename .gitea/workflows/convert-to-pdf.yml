@@ -16,6 +16,39 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+
+      - name: "Read Git Info"
+        id: "git_info"
+        uses: YunaBraska/git-info-action@main
+
+        # CONFIGS (Optional)
+        with:
+          workDir: '.'
+          branch-fallback: 'main'
+          tag-fallback: '0.0.1'
+          tag-match-pattern: 'v1.*'
+          fallback-commit-type: 'chore'
+          fallback-commit-scope: 'performance'
+          commit-msg-with-footer: 'true'
+          max-changelog-length: 200
+
+      - name: "Print Git Info to file"
+        run: |
+          echo -e "\n" >> README.md
+          echo "&raquo;&raquo; is_git_repo          [${{ steps.git_info.outputs.is_git_repo }}]" >> README.md
+          echo "&raquo;&raquo; tag_latest           [${{ steps.git_info.outputs.tag_latest }}]" >> README.md
+          echo "&raquo;&raquo; sha_latest           [${{ steps.git_info.outputs.sha_latest }}]" >> README.md
+          echo "&raquo;&raquo; sha_latest_tag       [${{ steps.git_info.outputs.sha_latest_tag }}]" >> README.md
+          echo "&raquo;&raquo; branch               [${{ steps.git_info.outputs.branch }}]" >> README.md
+          echo "&raquo;&raquo; branch_default       [${{ steps.git_info.outputs.branch_default }}]" >> README.md
+          echo "&raquo;&raquo; has_changes          [${{ steps.git_info.outputs.has_changes }}]" >> README.md
+          echo "&raquo;&raquo; has_local_changes    [${{ steps.git_info.outputs.has_local_changes }}]" >> README.md
+          echo "&raquo;&raquo; has_breaking_changes [${{ steps.git_info.outputs.has_breaking_changes }}]" >> README.md
+          echo "&raquo;&raquo; commit_types         [${{ steps.git_info.outputs.commit_types }}]" >> README.md
+          echo "&raquo;&raquo; commit_scopes        [${{ steps.git_info.outputs.commit_scopes }}]" >> README.md
+          echo "&raquo;&raquo; change_log           [${{ steps.git_info.outputs.change_log }}]" >> README.md
+          echo "&raquo;&raquo; change_log_type_feat [${{ steps.git_info.outputs.change_log_type_feat }}]" >> README.md
+
       - name: PDF Generation
         uses: leleobhz/markdown-to-pdf@main
         with:
