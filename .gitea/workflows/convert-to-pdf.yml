@@ -17,7 +17,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
       - name: PDF Generation
-        uses: DrMaxNix/markdown-to-pdf@v1
+        uses: DrMaxNix/markdown-to-pdf@main
         with:
           input_dir: ./README.md
           output_dir: ./
