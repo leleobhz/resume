@@ -3,8 +3,8 @@ name: PDF
 on:
   workflow_dispatch:
   push:
-    branches:
-      - resume
+    tags:
+      - '*'
     paths:
       - '.gitea/workflows/convert-to-pdf.yml'
       - 'README.md'
