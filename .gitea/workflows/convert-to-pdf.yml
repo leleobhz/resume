@@ -25,11 +25,7 @@ jobs:
       - name: Rename PDF
         run: mv README.pdf leonardo_amaral_resume.pdf
       - name: Release
-        uses: "softprops/action-gh-release@v2"
+        uses: christopherhx/gitea-upload-artifact@v4
         with:
-          repo_token: "${{ secrets.GITEA_TOKEN }}"
-          make_latest: true
-          prerelease: false
-          name: "Curriculo em PDF"
-          files: leonardo_amaral_resume.pdf
-
+          name: Curriculo em PDF
+          path: leonardo_amaral_resume.pdf
