@@ -26,7 +26,7 @@ jobs:
           sed -i "s,<div style=\"display:none;\">&raquo; Commit Sha: ##COMMIT_SHA%%</div>,\&raquo; Commit Sha: ${{ steps.git_info.outputs.sha_short }},g" README.md
 
       - name: PDF Generation
-        uses: lothindir/pandoc-markdown-action@v0.1
+        uses: lothindir/pandoc-markdown-action@main
         with:
           markdown: "README.md"
           pdf: "leonardo_amaral_resume"
