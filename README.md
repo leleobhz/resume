@@ -2,12 +2,13 @@ Leonardo Silva Amaral
 ================================================================================
 
 <p style="text-align:left;">
-    &raquo; E-Mail: <contato@leonardoamaral.com.br>  
+    &raquo; E-Mail: <a href="mailto:contato@leonardoamaral.com.br">contato@leonardoamaral.com.br</a>
     <span style="float:right;">
         <div style="display:none;">&raquo; Commit Sha: ##COMMIT_SHA%%</div>
     </span>
+    &raquo; Telefone:<a href=tel:+5519993482001>+55 19 99348 2001</a>
 </p>
-&raquo; Telefone: [+55 19 99348-2001](tel:+5519993482001)  
+
 
 O profissional
 --------------------------------------------------------------------------------
@@ -21,6 +22,7 @@ A oportunidade de operar um ISP foi uma "porta de entrada" para o mundo de Telec
 A duradoura experiência em Sistemas Linux, aliada a intensa imersão no mundo de Telecomunicações gerou frutos inovadores e inexplorados, consolidando meu posicionamento profissional com bastante solidez e criatividade.
 
 Atualmente me posiciono como SRE e DevOps com larga experiência em Kubernetes, Docker, Observability com Zabbix e Netcool e larga experiência em operação de Backbone IP e telecomunicações IP.
+
 
 Experiências Profissionais
 --------------------------------------------------------------------------------
@@ -68,6 +70,7 @@ Experiências Profissionais
 &raquo;&raquo; Área de atuação: Estágio em TI  
 &raquo;&raquo; Atividades: Marca a primeira implementação em larga escala de sistemas com Linux: Partipação paralela ao suporte com patches de sistema no desenvolvimento da Distribuição Linux Libertas - sendo implementada pela prefeitura.  
 
+
 Formação Acadêmica
 --------------------------------------------------------------------------------
 
@@ -76,6 +79,7 @@ Formação Acadêmica
 &raquo;&raquo; Tempo de atuação: 2010~2012  
 &raquo;&raquo; Curso: Física Computacional  
 &raquo;&raquo;&raquo; Curso interrompido para mudança de área acadêmica, enfocando Telecomunicações e Administração de Sistemas.  
+
 
 Certificações
 --------------------------------------------------------------------------------
@@ -86,6 +90,7 @@ Certificações
 &raquo;&raquo; Curso de boas práticas para Sistemas Autônomos - Provido pelo NIC.br  
 &raquo;&raquo; Curso para homologação de NR-35  
 &raquo;&raquo; Curso de Infraestrutura em redes ópticas - UFSCar - São Carlos  
+
 
 Experiências Técnicas
 --------------------------------------------------------------------------------
@@ -124,6 +129,7 @@ Todo o maquinário crítico foi reimplementado com Gentoo Hardened - devido a ma
 &raquo;&raquo; A Santa Casa de Misericórdia de Belo Horizonte - atendida pela Comjota - reportou a necessidade de um sistema leve e em console para troca de senhas do sistema de email em caso de bloqueio por erro. Entretanto o Helpdesks não poderiam ter acesso privilégiado ao sistema de email.  
 
 Aproveitando a disponibilidade de cliente de terminal em todas as estações, desenvolvi o zimbrahelpdesk utilizando o projeto [2502](https://github.com/caetanus/resume/blob/master/resume-pt_br.rst#2502) como base de comunicação - visando uma interface de console limpa com controle de acesso via PAM ao sistema de troca de senha - aprovado e implementdo pela gestão de TI.
+
 
 Links de colaboração
 --------------------------------------------------------------------------------
