@@ -25,16 +25,16 @@ jobs:
         run: |
           sed -i "s,<div style=\"display:none;\">&raquo; Commit Sha: ##COMMIT_SHA%%</div>,\&raquo; Commit Sha: ${{ steps.git_info.outputs.sha_short }},g" README.md
 
-      - name: Setup Pandoc
-        uses: r-lib/actions/setup-pandoc@v2
+      - name: Setup Python
+        uses: actions/setup-python@v5
         with:
-          pandoc-version: '3.1.11' # The pandoc version to download (if necessary) and use.
+            python-version: '3.12' 
 
-      - name: Install pdflatex
-        run: apt-get update ; apt-get -y install texlive-latex-base texlive-fonts-recommended texlive-fonts-extra texlive-latex-extra
+      - name: Install markdown-pdf
+        run: pip install markdown-pdf
 
       - name: PDF Generation
-        run: pandoc README.md -o leonardo_amaral_resume.pdf -V geometry:margin=1in
+        run: python3 utils/makeresume.py README.md leonardo_amaral_resume.pdf
 
       - name: Release
         uses: christopherhx/gitea-upload-artifact@v4
