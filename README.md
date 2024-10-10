@@ -6,6 +6,8 @@ Leonardo Silva Amaral
     <span style="float:right;">
         <div style="display:none;">&raquo; Commit Sha: ##COMMIT_SHA%%</div>
     </span>
+</p>
+<p style="text-align:left;">
     &raquo; Telefone:<a href=tel:+5519993482001>+55 19 99348 2001</a>
 </p>
 
