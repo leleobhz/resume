@@ -25,9 +25,6 @@ jobs:
         run: |
           sed -i "s,<div style=\"display:none;\">&raquo; Commit Sha: ##COMMIT_SHA%%</div>,\&raquo; Commit Sha: ${{ steps.git_info.outputs.sha_short }},g" README.md
 
-      - name: Setup Python
-        run: apt update && apt install -y python3-pip
-
       - name: Install markdown-pdf
         run: pip install markdown-pdf
 
