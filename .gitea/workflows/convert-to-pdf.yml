@@ -34,11 +34,7 @@ jobs:
 
       - name: "Print Git Info to file"
         run: |
-          echo -e "\n" >> README.md
-          echo -e "&raquo;&raquo; Git tag do documento: ${{ steps.git_info.outputs.tag_latest }}  " >> README.md
-          echo -e "&raquo;&raquo; Git commit sha do documento: ${{ steps.git_info.outputs.sha_latest }}  " >> README.md
-          echo -e "&raquo;&raquo; Data da última mudança: ${{ steps.git_info.outputs.repo_updated_at }}  " >> README.md
-
+          sed -i "s,<div style=\"display:none;\">&raquo; Commit Sha: ##COMMIT_SHA%%</div>,\&raquo; Commit Sha: ${{ steps.git_info.outputs.tag_latest }},g" README.md
       - name: PDF Generation
         uses: leleobhz/markdown-to-pdf@main
         with:

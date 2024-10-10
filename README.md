@@ -1,8 +1,13 @@
 Leonardo Silva Amaral
 ================================================================================
 
-&raquo;		E-Mail: <contato@leonardoamaral.com.br>  
-&raquo;		Telefone: [+55 19 99348-2001](tel:+5519993482001)  
+<p style="text-align:left;">
+    &raquo; E-Mail: <contato@leonardoamaral.com.br>  
+    <span style="float:right;">
+        <div style="display:none;">&raquo; Commit Sha: ##COMMIT_SHA%%</div>
+    </span>
+</p>
+&raquo; Telefone: [+55 19 99348-2001](tel:+5519993482001)  
 
 O profissional
 --------------------------------------------------------------------------------
