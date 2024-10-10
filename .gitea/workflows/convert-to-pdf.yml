@@ -4,6 +4,8 @@ on:
   workflow_dispatch:
   push:
     push:
+      branches:
+        - resume
     paths:
       - '.gitea/workflows/convert-to-pdf.yml'
       - 'README.md'
