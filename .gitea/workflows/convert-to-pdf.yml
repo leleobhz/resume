@@ -26,11 +26,10 @@ jobs:
           sed -i "s,<div style=\"display:none;\">&raquo; Commit Sha: ##COMMIT_SHA%%</div>,\&raquo; Commit Sha: ${{ steps.git_info.outputs.sha_short }},g" README.md
 
       - name: PDF Generation
-        uses: lothindir/pandoc-markdown-action@main
+        uses: r-lib/actions/setup-pandoc@v2
         with:
-          markdown: "README.md"
-          pdf: "leonardo_amaral_resume"
-          template: "kate"
+          pandoc-version: '3.1.11' # The pandoc version to download (if necessary) and use.
+        run: pandoc README.md -o leonardo_amaral_resume.pdf -V geometry:margin=1in
 
       - name: Release
         uses: christopherhx/gitea-upload-artifact@v4
