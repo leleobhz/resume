@@ -26,10 +26,10 @@ jobs:
           sed -i "s,<div style=\"display:none;\">&raquo; Commit Sha: ##COMMIT_SHA%%</div>,\&raquo; Commit Sha: ${{ steps.git_info.outputs.sha_short }},g" README.md
 
       - name: Install markdown-pdf
-        run: apt update && apt install -y pip && pip install --break-system-packages markdown-pdf
+        run: apt update && apt install -y pip && pip install --break-system-packages rst2pdf
 
       - name: PDF Generation
-        run: python3 utils/makeresume.py README.md leonardo_amaral_resume.pdf
+        run: rst2pdf README.md leonardo_amaral_resume.pdf
 
       - name: Release
         uses: christopherhx/gitea-upload-artifact@v4
