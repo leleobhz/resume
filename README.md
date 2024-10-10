@@ -130,6 +130,3 @@ Links de colaboração
 
 &raquo;&raquo; Github: [https://github.com/leleobhz/](https://github.com/leleobhz/)  
 &raquo;&raquo; Blog Técnico: [Um sysadmin cansado](https://blog.leonardoamaral.com.br/)
-
-Informação de compilação do Curriculum
---------------------------------------------------------------------------------
