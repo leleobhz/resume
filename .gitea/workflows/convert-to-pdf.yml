@@ -29,7 +29,7 @@ jobs:
         uses: r-lib/actions/setup-pandoc@v2
         with:
           pandoc-version: '3.1.11' # The pandoc version to download (if necessary) and use.
-        run: pandoc README.md -o leonardo_amaral_resume.pdf -V geometry:margin=1in
+      - run: pandoc README.md -o leonardo_amaral_resume.pdf -V geometry:margin=1in
 
       - name: Release
         uses: christopherhx/gitea-upload-artifact@v4
