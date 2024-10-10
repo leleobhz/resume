@@ -24,14 +24,14 @@ jobs:
       - name: "Print Git Info to file"
         run: |
           sed -i "s,<div style=\"display:none;\">&raquo; Commit Sha: ##COMMIT_SHA%%</div>,\&raquo; Commit Sha: ${{ steps.git_info.outputs.sha_short }},g" README.md
+
       - name: PDF Generation
-        uses: leleobhz/markdown-to-pdf@main
+        uses: lothindir/pandoc-markdown-action@v0.1
         with:
-          input_dir: ./
-          output_dir: ./
-          build_html: false
-      - name: Rename PDF
-        run: mv README.pdf leonardo_amaral_resume.pdf
+          markdown: "README.md"
+          pdf: "leonardo_amaral_resume"
+          template: "kate"
+
       - name: Release
         uses: christopherhx/gitea-upload-artifact@v4
         with:
