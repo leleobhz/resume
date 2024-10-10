@@ -3,8 +3,7 @@ name: PDF
 on:
   workflow_dispatch:
   push:
-    tags:
-      - '*'
+    push:
     paths:
       - '.gitea/workflows/convert-to-pdf.yml'
       - 'README.md'
@@ -27,8 +26,6 @@ jobs:
 
       - name: Setup Python
         uses: actions/setup-python@v5
-        with:
-            python-version: '3.12' 
 
       - name: Install markdown-pdf
         run: pip install markdown-pdf
