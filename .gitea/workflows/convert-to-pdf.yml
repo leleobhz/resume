@@ -31,7 +31,7 @@ jobs:
           pandoc-version: '3.1.11' # The pandoc version to download (if necessary) and use.
 
       - name: Install pdflatex
-        run: apt-get -y install texlive-latex-base texlive-fonts-recommended texlive-fonts-extra texlive-latex-extra
+        run: apt-get update ; apt-get -y install texlive-latex-base texlive-fonts-recommended texlive-fonts-extra texlive-latex-extra
 
       - name: PDF Generation
         run: pandoc README.md -o leonardo_amaral_resume.pdf -V geometry:margin=1in
