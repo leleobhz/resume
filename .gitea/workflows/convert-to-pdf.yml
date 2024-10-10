@@ -17,24 +17,13 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: "Read Git Info"
-        id: "git_info"
-        uses: YunaBraska/git-info-action@main
-
-        # CONFIGS (Optional)
-        with:
-          workDir: '.'
-          branch-fallback: 'main'
-          tag-fallback: '0.0.1'
-          tag-match-pattern: 'v1.*'
-          fallback-commit-type: 'chore'
-          fallback-commit-scope: 'performance'
-          commit-msg-with-footer: 'true'
-          max-changelog-length: 200
+      - name: Set outputs
+        id: git_info
+        run: echo "sha_short=$(git rev-parse --short HEAD)" >> $GITHUB_OUTPUT
 
       - name: "Print Git Info to file"
         run: |
-          sed -i "s,<div style=\"display:none;\">&raquo; Commit Sha: ##COMMIT_SHA%%</div>,\&raquo; Commit Sha: ${{ steps.git_info.outputs.tag_latest }},g" README.md
+          sed -i "s,<div style=\"display:none;\">&raquo; Commit Sha: ##COMMIT_SHA%%</div>,\&raquo; Commit Sha: ${{ steps.git_info.outputs.sha_short }},g" README.md
       - name: PDF Generation
         uses: leleobhz/markdown-to-pdf@main
         with:
