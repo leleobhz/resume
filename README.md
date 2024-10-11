@@ -1,15 +1,9 @@
 Leonardo Silva Amaral
 ================================================================================
 
-<p style="text-align:left;">
-    &raquo; E-Mail: <a href="mailto:contato@leonardoamaral.com.br">contato@leonardoamaral.com.br</a>
-    <span style="float:right;">
-        <div style="display:none;">&raquo; Commit Sha: ##COMMIT_SHA%%</div>
-    </span>
-</p>
-<p style="text-align:left;">
-    &raquo; Telefone:<a href=tel:+5519993482001>+55 19 99348 2001</a>
-</p>
+&raquo; E-Mail: <a href="mailto:contato@leonardoamaral.com.br">contato@leonardoamaral.com.br</a></br>
+&raquo; Telefone: <a href=tel:+5519993482001>+55 19 99348 2001</a></br>
+&raquo; Commit Sha: ##COMMIT_SHA%%
 
 
 O profissional
@@ -29,48 +23,45 @@ Atualmente me posiciono como SRE e DevOps com larga experiência em Kubernetes, 
 Experiências Profissionais
 --------------------------------------------------------------------------------
 
-#### &raquo; IcaroTech
-&raquo;&raquo; Tempo de atuação: 05/2022 - presente  
-&raquo;&raquo; Área de atuação: SRE e DevOps  
-&raquo;&raquo; Atividades: Alocado no Chapter DevOps, atuo em clientes como TIM, IBM Consulting, Vero Internet, Ligga Telecom e outros, operando soluções como Docker, Kubernetes, OpenShift, IBM CloudPak for AIOps e IBM CloudPak for Integrations, bem como atuei em observability com os sistemas IBM Tivoli Netcool e IBM AIOps.
+#### &raquo; IcaroTech</br>
+&raquo;&raquo; Tempo de atuação: 05/2022 - presente  </br>
+&raquo;&raquo; Área de atuação: SRE e DevOps  </br>
+&raquo;&raquo; Atividades: Alocado no Chapter DevOps, atuo em clientes como TIM, IBM Consulting, Vero Internet, Ligga Telecom e outros, operando soluções como Docker, Kubernetes, OpenShift, IBM CloudPak for AIOps e IBM CloudPak for Integrations, bem como atuei em observability com os sistemas IBM Tivoli Netcool e IBM AIOps.</br>
 
-#### &raquo; Jusbrasil
-&raquo;&raquo; Tempo de atuação: 06/2021 - 03/2022  
-&raquo;&raquo; Área de atuação: SRE e DevOps  
-&raquo;&raquo; Atividades: Migração em escopo fechado da estrutura de banco de dados MongoDB do sistema de Coleta Processual da infraestrutura on premisses para estrutura em Google Cloud.
+#### &raquo; Jusbrasil</br>
+&raquo;&raquo; Tempo de atuação: 06/2021 - 03/2022  </br>
+&raquo;&raquo; Área de atuação: SRE e DevOps  </br>
+&raquo;&raquo; Atividades: Migração em escopo fechado da estrutura de banco de dados MongoDB do sistema de Coleta Processual da infraestrutura on premisses para estrutura em Google Cloud.</br>
 
-#### &raquo; Zenith Tecnologia
-&raquo;&raquo; Tempo de atuação: 08/2018 - Presente  
-&raquo;&raquo; Área de atuação: Fundador/Engenharia  
-&raquo;&raquo; Atividades: A Zenith Tecnologia é uma empresa fundada com a missão de prover soluções de alta complexidade e inovação tecnologica na área de engenharia de telecomunicações e infraestrutura de dados. Atua especialmente em consultoria para sistemas em nuvem e mitigação de DDoS para grandes ITPs, ISPs e Datacenters.
+#### &raquo; Zenith Tecnologia</br>
+&raquo;&raquo; Tempo de atuação: 08/2018 - Presente  </br>
+&raquo;&raquo; Área de atuação: Fundador/Engenharia  </br>
+&raquo;&raquo; Atividades: A Zenith Tecnologia é uma empresa fundada com a missão de prover soluções de alta complexidade e inovação tecnologica na área de engenharia de telecomunicações e infraestrutura de dados. Atua especialmente em consultoria para sistemas em nuvem e mitigação de DDoS para grandes ITPs, ISPs e Datacenters.</br>
 
-#### &raquo; UPX Technologies - ASN 52863
-&raquo;&raquo; Tempo de atuação: 07/2015 - 04/2018   
-&raquo;&raquo; Área de atuação: Administração de Redes   
-&raquo;&raquo; Atividades: Implementação e manutenção do produto IP Transit Security e de soluções relacionadas a mitigação de DDoS em Trânsito IP; criou toda a estrutura de software e topologia periférica da solução bem inovou na criação de novos fltros Anti-DDoS não existêntes em outras soluções. Atuou como operador principal de toda a estrutura de rede MetroEthernet e Trânsito IP que serve tanto ao sistema de mitigação e servidores internos de outras soluções quanto aos clientes de trânsito sem proteção.
+#### &raquo; UPX Technologies - ASN 52863</br>
+&raquo;&raquo; Tempo de atuação: 07/2015 - 04/2018   </br>
+&raquo;&raquo; Área de atuação: Administração de Redes   </br>
+&raquo;&raquo; Atividades: Implementação e manutenção do produto IP Transit Security e de soluções relacionadas a mitigação de DDoS em Trânsito IP; criou toda a estrutura de software e topologia periférica da solução bem inovou na criação de novos fltros Anti-DDoS não existêntes em outras soluções. Atuou como operador principal de toda a estrutura de rede MetroEthernet e Trânsito IP que serve tanto ao sistema de mitigação e servidores internos de outras soluções quanto aos clientes de trânsito sem proteção.</br>
 
-#### &raquo; Comjota Consultoria de TI
+#### &raquo; Comjota Consultoria de TI</br>
+&raquo;&raquo; Tempo de atuação: 2008 - Prestação Continuada como PJ  </br>
+&raquo;&raquo; Área de atuação: Administração de Sistemas  </br>
+&raquo;&raquo; Atividades: Implementação, administração e prestação suporte nível dois (2) e três (3) aos servidores da empresa e de seus clientes. Participação ativa na criação de novas soluções e atendimento de demandas internas e externas, como na criação de sistemas para clientes e modelagem de infraestrutura.  </br>
 
-&raquo;&raquo; Tempo de atuação: 2008 - Prestação Continuada como PJ  
-&raquo;&raquo; Área de atuação: Administração de Sistemas  
-&raquo;&raquo; Atividades: Implementação, administração e prestação suporte nível dois (2) e três (3) aos servidores da empresa e de seus clientes. Participação ativa na criação de novas soluções e atendimento de demandas internas e externas, como na criação de sistemas para clientes e modelagem de infraestrutura.  
+#### &raquo; SecUnix Consultoria</br>
+&raquo;&raquo; Tempo de atuação: 04/2014 - 04/2015  </br>
+&raquo;&raquo; Área de atuação: Administração de Sistemas Linux  </br>
+&raquo;&raquo; Atividades: Administração, implementação, suporte e desenvolvimento de soluções baseadas em Linux em nível intermediário e avançado.</br>
 
-#### &raquo; SecUnix Consultoria
-&raquo;&raquo; Tempo de atuação: 04/2014 - 04/2015  
-&raquo;&raquo; Área de atuação: Administração de Sistemas Linux  
-&raquo;&raquo; Atividades: Administração, implementação, suporte e desenvolvimento de soluções baseadas em Linux em nível intermediário e avançado.
+#### &raquo; SCW Telecom - ASN 28138</br>
+&raquo;&raquo; Tempo de atuação: 10/2012 - 04/2014  </br>
+&raquo;&raquo; Área de atuação: Administração de Redes  </br>
+&raquo;&raquo; Atividades: Administração de todo o DataCenter do provedor tal como dos seus serviços de rede e trânsito IP. Responsável por inovações e manutenção do AS e dos links de Trânsito e conectividade à PTTs - especialmente o PTT-Metro SP.  </br>
 
-#### &raquo; SCW Telecom - ASN 28138
-
-&raquo;&raquo; Tempo de atuação: 10/2012 - 04/2014  
-&raquo;&raquo; Área de atuação: Administração de Redes  
-&raquo;&raquo; Atividades: Administração de todo o DataCenter do provedor tal como dos seus serviços de rede e trânsito IP. Responsável por inovações e manutenção do AS e dos links de Trânsito e conectividade à PTTs - especialmente o PTT-Metro SP.  
-
-#### &raquo; Prodabel - Processamento de Dados da Prefeitura de Belo Horizonte
-
-&raquo;&raquo; Tempo de atuação: 02/2006 - 08/2006  
-&raquo;&raquo; Área de atuação: Estágio em TI  
-&raquo;&raquo; Atividades: Marca a primeira implementação em larga escala de sistemas com Linux: Partipação paralela ao suporte com patches de sistema no desenvolvimento da Distribuição Linux Libertas - sendo implementada pela prefeitura.  
+#### &raquo; Prodabel - Processamento de Dados da Prefeitura de Belo Horizonte</br>
+&raquo;&raquo; Tempo de atuação: 02/2006 - 08/2006  </br>
+&raquo;&raquo; Área de atuação: Estágio em TI  </br>
+&raquo;&raquo; Atividades: Marca a primeira implementação em larga escala de sistemas com Linux: Partipação paralela ao suporte com patches de sistema no desenvolvimento da Distribuição Linux Libertas - sendo implementada pela prefeitura.  </br>
 
 
 Formação Acadêmica
