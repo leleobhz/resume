@@ -41,7 +41,7 @@ Experiências Profissionais
 #### &raquo; UPX Technologies - ASN 52863</br>
 &raquo;&raquo; Tempo de atuação: 07/2015 - 04/2018   </br>
 &raquo;&raquo; Área de atuação: Administração de Redes   </br>
-&raquo;&raquo; Atividades: Implementação e manutenção do produto IP Transit Security e de soluções relacionadas a mitigação de DDoS em Trânsito IP; criou toda a estrutura de software e topologia periférica da solução bem inovou na criação de novos fltros Anti-DDoS não existêntes em outras soluções. Atuou como operador principal de toda a estrutura de rede MetroEthernet e Trânsito IP que serve tanto ao sistema de mitigação e servidores internos de outras soluções quanto aos clientes de trânsito sem proteção.</br>
+&raquo;&raquo; Atividades: Implementação e manutenção do produto IP Transit Security e de soluções relacionadas a mitigação de DDoS em Trânsito IP; criou toda a estrutura de software e topologia periférica da solução bem inovou na criação de novos fltros Anti-DDoS não existêntes em outras soluções. Atuou como operador principal de toda a estrutura de rede MetroEthernet e Trânsito IP que serve tanto ao sistema de mitigação e servidores internos de outras soluções quanto aos clientes de trânsito sem proteção. Como destaque, fui alocado como responsável técnico pelo atendimento do cliente Banco Bradesco.</br>
 
 #### &raquo; Comjota Consultoria de TI</br>
 &raquo;&raquo; Tempo de atuação: 2008 - Prestação Continuada como PJ  </br>
