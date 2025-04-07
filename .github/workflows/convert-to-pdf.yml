@@ -6,6 +6,7 @@ on:
     branches:
       - resume
     paths:
+      - '.github/workflows/convert-to-pdf.yml'
       - 'README.md'
 
 jobs:
@@ -14,15 +15,25 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
+
+      - name: Set outputs
+        id: git_info
+        run: echo "sha_short=$(git rev-parse --short HEAD)" >> $GITHUB_OUTPUT
+
+      - name: "Print Git Info to file"
+        run: |
+          sed -i "s,##COMMIT_SHA%%,${{ steps.git_info.outputs.sha_short }},g" README.md
+
+      - name: Install markdown-pdf
+        run: apt update && apt install -y pandoc && wget --content-disposition https://github.com/wkhtmltopdf/packaging/releases/download/0.12.6.1-3/wkhtmltox_0.12.6.1-3.bookworm_$(dpkg --print-architecture).deb && dpkg -i wkhtmltox_0.12.6.1-3.bookworm_$(dpkg --print-architecture).deb || true && apt -f -y install
+
+      - name: HTML Generation
+        run:  pandoc -f gfm -t html5 --css style.css -s README.md -o leonardo_amaral_resume.html
+
       - name: PDF Generation
-        uses: baileyjm02/markdown-to-pdf@v1
-        with:
-          input_dir: ./
-          output_dir: ./
-          build_html: false
-      - name: Rename PDF
-        run: mv README.pdf leonardo_amaral_resume.pdf
+        run:  pandoc -f gfm -t html5 --pdf-engine wkhtmltopdf --pdf-engine-opt '--disable-smart-shrinking' --pdf-engine-opt '--enable-external-links' --pdf-engine-opt '--margin-bottom' --pdf-engine-opt '15mm' --pdf-engine-opt '--margin-left' --pdf-engine-opt '15mm' --pdf-engine-opt '--margin-right' --pdf-engine-opt '15mm' --pdf-engine-opt '--margin-top' --pdf-engine-opt '15mm' --css style.css -s README.md -o leonardo_amaral_resume.pdf
+
       - name: Release
         uses: "marvinpinto/action-automatic-releases@latest"
         with:
