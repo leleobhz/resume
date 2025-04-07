@@ -13,6 +13,7 @@ jobs:
   pdf:
     name: Build PDF
     runs-on: ubuntu-latest
+    container: debian:bookworm
     steps:
       - name: Checkout
         uses: actions/checkout@v4
