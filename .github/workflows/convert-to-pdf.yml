@@ -21,13 +21,10 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Set outputs
-        id: git_info
-        run: echo "sha_short=$(git rev-parse --short HEAD)" >> $GITHUB_OUTPUT
-
       - name: "Print Git Info to file"
         run: |
-          sed -i "s,##COMMIT_SHA%%,${{ steps.git_info.outputs.sha_short }},g" README.md
+          echo "Commit SHA: $(git rev-parse --short HEAD)"
+          sed -i "s,##COMMIT_SHA%%,$(git rev-parse --short HEAD),g" README.md
 
       - name: HTML Generation
         run:  pandoc -f gfm -t html5 --css style.css -s README.md -o leonardo_amaral_resume.html
