@@ -67,12 +67,12 @@ Professional Experience
 Academic Background
 --------------------------------------------------------------------------------
 
-#### &raquo; Pontifical Catholic University of Minas Gerais (PUC Minas) – Institute of Exact Sciences and Informatics
+#### &raquo; Pontifícia Univesidade Católicad de Minas Gerais (PUC Minas) – Instituto de Ciências Exatas e Informática
 
 &raquo;&raquo; Period: 2017–2025  
 &raquo;&raquo; Program: Computer Networks  
 
-#### &raquo; University of São Paulo – Institute of Physics of São Carlos
+#### &raquo; Universidade de São Paulo – Instituto de Física de São Carlos
 
 &raquo;&raquo; Period: 2010–2012  
 &raquo;&raquo; Program: Computational Physics  
