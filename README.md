@@ -67,6 +67,11 @@ Experiências Profissionais
 Formação Acadêmica
 --------------------------------------------------------------------------------
 
+#### &raquo; Pontifícia Universidade Católica de Minas Gerais (PUC Minas) - Instituto de Ciências Exatas e Informática  
+
+&raquo;&raquo; Tempo de atuação: 2025~2017  
+&raquo;&raquo; Curso: Redes de computadores  
+
 #### &raquo; Universidade de São Paulo - Instituto de Física de São Carlos
 
 &raquo;&raquo; Tempo de atuação: 2010~2012  
