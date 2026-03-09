@@ -28,12 +28,19 @@ jobs:
       - name: "Print Git Info to file"
         run: |
           sed -i "s,##COMMIT_SHA%%,$(git rev-parse --short HEAD),g" README.md
+          sed -i "s,##COMMIT_SHA%%,$(git rev-parse --short HEAD),g" README-EN.md
 
-      - name: HTML Generation
-        run:  pandoc -f gfm -t html5 --css style.css -s README.md -o leonardo_amaral_resume.html
+      - name: HTML Generation - PT-BR
+        run:  pandoc -f gfm -t html5 --css style.css -s README.md -o leonardo_amaral_resume-pt-br.html
 
-      - name: PDF Generation
-        run:  pandoc -f gfm -t html5 --pdf-engine wkhtmltopdf --pdf-engine-opt '--disable-smart-shrinking' --pdf-engine-opt '--enable-external-links' --pdf-engine-opt '--margin-bottom' --pdf-engine-opt '15mm' --pdf-engine-opt '--margin-left' --pdf-engine-opt '15mm' --pdf-engine-opt '--margin-right' --pdf-engine-opt '15mm' --pdf-engine-opt '--margin-top' --pdf-engine-opt '15mm' --css style.css -s README.md -o leonardo_amaral_resume.pdf
+      - name: HTML Generation - EN
+        run:  pandoc -f gfm -t html5 --css style.css -s README-EN.md -o leonardo_amaral_resume-en.html
+
+      - name: PDF Generation PT-BR
+        run:  pandoc -f gfm -t html5 --pdf-engine wkhtmltopdf --pdf-engine-opt '--disable-smart-shrinking' --pdf-engine-opt '--enable-external-links' --pdf-engine-opt '--margin-bottom' --pdf-engine-opt '15mm' --pdf-engine-opt '--margin-left' --pdf-engine-opt '15mm' --pdf-engine-opt '--margin-right' --pdf-engine-opt '15mm' --pdf-engine-opt '--margin-top' --pdf-engine-opt '15mm' --css style.css -s README.md -o leonardo_amaral_resume-pt-br.pdf
+
+      - name: PDF Generation EN
+        run:  pandoc -f gfm -t html5 --pdf-engine wkhtmltopdf --pdf-engine-opt '--disable-smart-shrinking' --pdf-engine-opt '--enable-external-links' --pdf-engine-opt '--margin-bottom' --pdf-engine-opt '15mm' --pdf-engine-opt '--margin-left' --pdf-engine-opt '15mm' --pdf-engine-opt '--margin-right' --pdf-engine-opt '15mm' --pdf-engine-opt '--margin-top' --pdf-engine-opt '15mm' --css style.css -s README-EN.md -o leonardo_amaral_resume-en.pdf
 
       - name: Release
         uses: "marvinpinto/action-automatic-releases@latest"
@@ -42,5 +49,7 @@ jobs:
           automatic_release_tag: "latest"
           prerelease: False
           title: "Curriculo em PDF"
-          files: leonardo_amaral_resume.pdf
+          files: |
+            leonardo_amaral_resume-pt-br.pdf
+            leonardo_amaral_resume-en.pdf
 

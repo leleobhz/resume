@@ -3,7 +3,7 @@ Leonardo Silva Amaral
 
 &raquo; E-Mail: <a href="mailto:contato@leonardoamaral.com.br">contato@leonardoamaral.com.br</a></br>
 &raquo; Telefone: <a href=tel:+5519993482001>+55 19 99348 2001</a></br>
-&raquo; Commit Sha: ##COMMIT_SHA%%
+&raquo; Curriculo gerado via <a href="https://github.com/leleobhz/resume">Github CI/CD</a> no commit SHA: ##COMMIT_SHA%%
 
 
 O profissional
