@@ -77,6 +77,7 @@ Formação Acadêmica
 Certificações
 --------------------------------------------------------------------------------
 
+&raquo;&raquo; Badge IBM Cloud Essentials - [https://www.credly.com/badges/0469542c-f5da-4bcc-85ad-fc1065e8ffaa](https://www.credly.com/badges/0469542c-f5da-4bcc-85ad-fc1065e8ffaa)  
 &raquo;&raquo; Membro da Linux Professional Institute - [https://people.lpi.org/m/b295796f-8a76-457e-9b31-14b0d9cd5013](https://people.lpi.org/m/b295796f-8a76-457e-9b31-14b0d9cd5013)  
 &raquo;&raquo; LPIC nível 2 - Identificador LPI000106747 / Código verificador hgwxf77vau  
 &raquo;&raquo; Curso de IPv6 com ênfase em roteamento - Provido pelo NIC.br  

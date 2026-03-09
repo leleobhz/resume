@@ -82,6 +82,7 @@ Academic Background
 Certifications
 --------------------------------------------------------------------------------
 
+&raquo;&raquo; IBM Cloud Essentials Badge - [https://www.credly.com/badges/0469542c-f5da-4bcc-85ad-fc1065e8ffaa](https://www.credly.com/badges/0469542c-f5da-4bcc-85ad-fc1065e8ffaa)
 &raquo;&raquo; Member of the Linux Professional Institute – [https://people.lpi.org/m/b295796f-8a76-457e-9b31-14b0d9cd5013](https://people.lpi.org/m/b295796f-8a76-457e-9b31-14b0d9cd5013)  
 &raquo;&raquo; LPIC Level 2 – ID: LPI000106747 / Verification Code: hgwxf77vau  
 &raquo;&raquo; IPv6 Course with Emphasis on Routing – Provided by NIC.br  
